@@ -1,22 +1,18 @@
 # Implementasi One-Time Password dan Digital Signature RSA-PKCS#1 v1.5 pada Physical Gift Card
 
 
-<center>
+<p align="center">
 Rozan Ghosani 18221121
-</center>
-<center>
+<br>
 Program Studi Sistem dan Teknologi Informasi
-</center>
-<center>
+<br>
 Sekolah Teknik Elektro dan Informatika
-</center>
-<center>
+<br>
 Institut Teknologi Bandung, Jalan Ganesha 10 Bandung
-</center>
-<center>
-
+<br>
 18221121@std.stei.itb.ac.id
-</center>
+</p>
+
 
 Sistem produksi dan penggunaan gift card yang memiliki lapisan keamanan dan autentikasi tambahan untuk melindungi konsumen dan perusahaan dari penyalahgunaan gift card.
 
