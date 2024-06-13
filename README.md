@@ -1,22 +1,18 @@
 # Implementasi One-Time Password dan Digital Signature RSA-PKCS#1 v1.5 pada Physical Gift Card
 
 
-<center>
+<p align="center">
 Rozan Ghosani 18221121
-</center>
-<center>
+<br>
 Program Studi Sistem dan Teknologi Informasi
-</center>
-<center>
+<br>
 Sekolah Teknik Elektro dan Informatika
-</center>
-<center>
+<br>
 Institut Teknologi Bandung, Jalan Ganesha 10 Bandung
-</center>
-<center>
-
+<br>
 18221121@std.stei.itb.ac.id
-</center>
+</p>
+
 
 Sistem produksi dan penggunaan gift card yang memiliki lapisan keamanan dan autentikasi tambahan untuk melindungi konsumen dan perusahaan dari penyalahgunaan gift card.
 
@@ -31,7 +27,7 @@ Sistem produksi dan penggunaan gift card yang memiliki lapisan keamanan dan aute
 
 Gift card umumnya hanya diamankan dengan menggunakan lapisan penutup goresan pada bagian belakang kartu untuk memastikan bahwa kode pada kartu tersebut belum pernah digunakan sebelumnya . Berdasarkan situasi ini, siapa pun yang memiliki kode pada gift card dapat menukarkan uang tersebut. Seiring dengan lemahnya pengamanan pada gift card, kebutuhan akan mekanisme keamanan yang lebih kuat menjadi sangat penting.
 
-Permasalahan keamanan ini dapat diatasi dengan menerapkan dua mekanisme keamanan, yaitu One-Time Password (OTP) dan digital signature. OTP adalah kode unik yang dihasilkan secara acak dan hanya berlaku untuk satu kali transaksi atau dalam jangka waktu yang sangat singkat [2]. Penerapan OTP pada aktivasi gift card diharapkan dapat mencegah penggunaan yang tidak sah atau pencurian pada gift card. Di sisi lain, Digital signature berfungsi sebagai verifikasi keaslian dan integritas data. Dengan menggunakan digital signature, setiap transaksi atau aktivasi gift card dapat diverifikasi keasliannya, sehingga mencegah manipulasi atau pemalsuan data.
+Permasalahan keamanan ini dapat diatasi dengan menerapkan dua mekanisme keamanan, yaitu One-Time Password (OTP) dan digital signature. OTP adalah kode unik yang dihasilkan secara acak dan hanya berlaku untuk satu kali transaksi atau dalam jangka waktu yang sangat singkat. Penerapan OTP pada aktivasi gift card diharapkan dapat mencegah penggunaan yang tidak sah atau pencurian pada gift card. Di sisi lain, Digital signature berfungsi sebagai verifikasi keaslian dan integritas data. Dengan menggunakan digital signature, setiap transaksi atau aktivasi gift card dapat diverifikasi keasliannya, sehingga mencegah manipulasi atau pemalsuan data.
 
 # System Requirements
 
