@@ -75,7 +75,7 @@ class ActivateView(View):
                     width=300
                 )
             )
-            print("Gift card already activated")
+            self.page.update()
             return
         
         # Read QR code from camera
