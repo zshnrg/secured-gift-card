@@ -4,7 +4,6 @@ import base64
 from services.signature import Signature
 from services.otp import OTP
 
-
 class GiftCard:
     def __init__(self, value: int, code: str):
         self.value = value
@@ -64,8 +63,3 @@ class Database:
         if gift_card:
             return gift_card.activate()
         return None
-    
-    def print_gift_cards(self):
-        print("Gift Cards:")
-        for code, gift_card in self.gift_cards.items():
-            print(code, gift_card.value, gift_card.status)
